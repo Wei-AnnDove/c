@@ -26,5 +26,8 @@
     <ClInclude Include="4-1.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="4-4.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

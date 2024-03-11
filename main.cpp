@@ -1,6 +1,7 @@
 #include <iostream>
 #include "4-1.h"
 #include "4-2.h"
+#include "4-4.h"
 
 using namespace std;
 
@@ -25,9 +26,21 @@ void test4_2() {
 	cout << endl;
 }
 
+void test4_4() {
+	Point myp1(1, 1), myp2(4, 5);
+	Line line(myp1, myp2);
+	Line line2(line);
+	cout << "Length of line:";
+	cout << line.getLen() << endl;
+	cout << "Length of line2:";
+	cout << line2.getLen() << endl;
+}
+
 int main() {
 	test4_1();
-	test4_2();
+	//test4_2();
+	test4_4();
+
 
 	return 0;
 }
