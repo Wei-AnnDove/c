@@ -1,6 +1,5 @@
-#include <iostream>
+#pragma once
 using namespace std;
-
 class Clock
 {
 public:
@@ -19,14 +18,16 @@ inline void Clock::showTime() {
 	cout << hour << ":" << minute << ":" << second << endl;
 }
 
-int main() {
-	Clock myClock;
-	cout << "First time set and output:" << endl;
-	myClock.setTime();
-	myClock.showTime();
-	cout << "Second time:" << endl;
-	myClock.setTime(4, 24, 45);
-	myClock.showTime();
-
-	return 0;
-}
+//int main() {
+//	Clock myClock;
+//	cout << "First time set and output:" << endl;
+//	myClock.setTime();
+//	myClock.showTime();
+//	cout << "Second time:" << endl;
+//	myClock.setTime(4, 24, 45);
+//	myClock.showTime();
+//
+//	Point a(4, 5);
+//
+//	return 0;
+//}
