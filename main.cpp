@@ -2,6 +2,7 @@
 #include "4-1.h"
 #include "4-2.h"
 #include "4-4.h"
+#include "4-7.h"
 
 using namespace std;
 
@@ -36,11 +37,20 @@ void test4_4() {
 	cout << line2.getLen() << endl;
 }
 
+void test4_7() {
+	ExamInfo course1("English", "B", 26);
+	ExamInfo course2("Calculus", true, 49);
+	ExamInfo course3("C++", 85, 999);
+	course1.show();
+	course2.show();
+	course3.show();
+}
+
 int main() {
 	test4_1();
 	//test4_2();
-	test4_4();
-
+	//test4_4();
+	test4_7();
 
 	return 0;
 }
