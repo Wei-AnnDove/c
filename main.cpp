@@ -4,6 +4,7 @@
 #include "4-4.h"
 #include "4-7.h"
 #include "4-9.h"
+#include "5-8.h"
 
 using namespace std;
 
@@ -62,12 +63,19 @@ void test4_9() {
 	sa1.show();
 }
 
+void test5_8() {
+	A5_8 a1(100), a2(0);
+	a1.print5_8();
+	a2.print5_8();
+}
+
 int main() {
 	test4_1();
 	//test4_2();
 	//test4_4();
 	//test4_7();
-	test4_9();
+	//test4_9();
+	test5_8();
 
 	return 0;
 }
