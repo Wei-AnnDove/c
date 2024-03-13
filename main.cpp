@@ -3,6 +3,7 @@
 #include "4-2.h"
 #include "4-4.h"
 #include "4-7.h"
+#include "4-9.h"
 
 using namespace std;
 
@@ -46,11 +47,27 @@ void test4_7() {
 	course3.show();
 }
 
+void test4_9() {
+	SavingsAccount sa0(1, 226229, 0.015);
+	SavingsAccount sa1(1, 110000, 0.025);
+
+	sa0.deposit(5, 5000);
+	sa1.deposit(15, 10000);
+	sa0.deposit(45, 5500);
+	sa1.withdraw(60, 4000);
+
+	sa0.settle(90);
+	sa1.settle(90);
+	sa0.show();
+	sa1.show();
+}
+
 int main() {
 	test4_1();
 	//test4_2();
 	//test4_4();
-	test4_7();
+	//test4_7();
+	test4_9();
 
 	return 0;
 }
