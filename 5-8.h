@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 class A5_8 {
 public:
