@@ -1,4 +1,4 @@
-#include "6-6.h"
+#include "6.h"
 #include <iostream>
 
 using namespace std;
