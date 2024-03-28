@@ -18,12 +18,15 @@ public:
 	//static void showCount() {
 	//	cout << " Object count= " << count << endl;
 	//}
+	static int count6_14;
 
 private:
 	int x, y;
-	static int count6_14;
+
 };
 
 //int Point14::count6_14 = 0;  在这里是错误的
 
 void test6_13();
+void test6_14();
+void test6_15();

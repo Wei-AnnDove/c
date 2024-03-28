@@ -79,7 +79,13 @@ int main() {
 	//test5_8();
 	//test6_6();
 	//test6_10();
-	test6_13();
+	//test6_13();
+	test6_14();
+	test6_15();
+
+
+
+
 
 
 	return 0;
