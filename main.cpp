@@ -77,8 +77,9 @@ int main() {
 	//test4_7();
 	//test4_9();
 	//test5_8();
-	test6_6();
-	test6_10();
+	//test6_6();
+	//test6_10();
+	test6_13();
 
 
 	return 0;
