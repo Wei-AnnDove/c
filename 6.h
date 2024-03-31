@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+using namespace std;
 
 void test6_6();
 void test6_10();
@@ -7,9 +9,11 @@ class Point14 {
 public:
 	Point14(int x = 0, int y = 0) :x(x), y(y) {
 		count6_14++;
+		cout << "Point14 ¹¹Ôì" << endl;
 	}
 	Point14(const Point14& p) :x(p.x), y(p.y) {
 		count6_14++;
+		cout << "Point14 Îö¹¹" << endl;
 	}
 	~Point14() { count6_14--; }
 	int getX() const { return x; }
