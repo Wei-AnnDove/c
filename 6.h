@@ -44,3 +44,19 @@ private:
 };
 
 void test6_16();
+#include <cassert>
+class ArrayPoints18 {
+public:
+	ArrayPoints18(int size);
+	~ArrayPoints18();
+	Point16 element(int index);
+	//Point16& element(int index) {
+	//	assert(index >= 0 && index < size);
+	//	return points[index];
+	//}
+private:
+	Point16* points;
+	int size;
+};
+
+void test6_18();
