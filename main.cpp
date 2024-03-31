@@ -71,7 +71,7 @@ void test5_8() {
 }
 
 int main() {
-	test4_1();
+	//test4_1();
 	//test4_2();
 	//test4_4();
 	//test4_7();
@@ -80,9 +80,9 @@ int main() {
 	//test6_6();
 	//test6_10();
 	//test6_13();
-	test6_14();
-	test6_15();
-
+	//test6_14();
+	//test6_15();
+	test6_16();
 
 
 

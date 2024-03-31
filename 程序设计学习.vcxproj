@@ -132,6 +132,7 @@
     <ClCompile Include="6-14.cpp" />
     <ClCompile Include="6-6.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="６-１６.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4-1.h" />
