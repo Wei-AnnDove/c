@@ -60,3 +60,5 @@ private:
 };
 
 void test6_18();
+
+void test6_19();
