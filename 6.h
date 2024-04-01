@@ -60,5 +60,21 @@ private:
 };
 
 void test6_18();
-
 void test6_19();
+
+class ArrayOfPoints22 {
+public:
+	ArrayOfPoints22(int size);
+	ArrayOfPoints22(const ArrayOfPoints22& v);
+	~ArrayOfPoints22();
+	//Point16 element(int index);
+	Point16& element(int index) {
+		assert(index >= 0 && index < size);
+		return points[index];
+	}
+private:
+	Point16* points;
+	int size;
+};
+
+void test6_22();
