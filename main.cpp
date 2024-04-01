@@ -84,9 +84,9 @@ int main() {
 	//test6_15();
 	//test6_16();
 
-	//test6_18();
+	test6_18();
 
-	test6_19();
+	//test6_19();
 
 
 
