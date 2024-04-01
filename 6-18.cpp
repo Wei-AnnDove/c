@@ -11,6 +11,7 @@ ArrayPoints18::ArrayPoints18(int size) :size(size) {
 }
 ArrayPoints18::~ArrayPoints18() {
 	cout << "Deleting points " << this->size << endl;
+	delete[]points;
 }
 //Point16 ArrayPoints18::element(int index) {
 //	assert(index >= 0 && index < size);
