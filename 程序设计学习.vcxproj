@@ -132,6 +132,7 @@
     <ClCompile Include="6-14.cpp" />
     <ClCompile Include="6-18.cpp" />
     <ClCompile Include="6-19.cpp" />
+    <ClCompile Include="6-22.cpp" />
     <ClCompile Include="6-6.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="6-16.cpp" />
