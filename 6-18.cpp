@@ -22,7 +22,6 @@ void test6_18() {
 	int count;
 	cout << "Enter the count of points:";
 	cin >> count;
-	cout << endl;
 	ArrayPoints18 points(count);
 	points.element(0).move(2, 35);
 	points.element(1).move(1345, 531);
