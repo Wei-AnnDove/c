@@ -17,6 +17,11 @@ ArrayPoints18::~ArrayPoints18() {
 //	assert(index >= 0 && index < size);
 //	return points[index];
 //}
+Point16& ArrayPoints18::element(int index) {
+	assert(index >= 0 && index < size);
+	return points[index];
+}
+
 
 void test6_18() {
 	int count;

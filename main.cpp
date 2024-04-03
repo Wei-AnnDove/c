@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "4-1.h"
 #include "4-2.h"
 #include "4-4.h"
@@ -85,10 +86,9 @@ int main() {
 	//test6_16();
 	//test6_19();
 	// 
-	//test6_18();
-	test6_22();
+	test6_18();
+	//test6_22();
 	
-
 
 	return 0;
 }
