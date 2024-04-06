@@ -7,6 +7,7 @@
 #include "4-9.h"
 #include "5-8.h"
 #include "6.h"
+#include "7.h"
 
 using namespace std;
 
@@ -86,9 +87,10 @@ int main() {
 	//test6_16();
 	//test6_19();
 	// 
-	test6_18();
+	//test6_18();
 	//test6_22();
 	
+	test7_4();
 
 	return 0;
 }
