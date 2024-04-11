@@ -8,6 +8,7 @@
 #include "5-8.h"
 #include "6.h"
 #include "7.h"
+#include "7-9MATRIX.h"
 
 using namespace std;
 
@@ -90,7 +91,8 @@ int main() {
 	//test6_18();
 	//test6_22();
 	
-	test7_4();
+	//test7_4();
+	testMATRIX7_9();
 
 	return 0;
 }
