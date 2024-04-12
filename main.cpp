@@ -95,7 +95,8 @@ int main() {
 	//test7_4();
 	//testMATRIX7_9();
 
-	test8_1();
+	//test8_1();
+	test8_2();
 
 	return 0;
 }

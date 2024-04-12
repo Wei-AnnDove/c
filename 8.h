@@ -12,3 +12,13 @@ public:
 };
 void test8_1();
 
+class Clock8_2 {
+private:
+	int hour, minute, second;
+public:
+	Clock8_2(int hour = 0, int minute = 0, int second = 0);
+	void showTime8_2() const;
+	Clock8_2& operator++();//«∞÷√
+	Clock8_2 operator++(int);//∫Û÷√
+};
+void test8_2();
