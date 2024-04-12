@@ -48,6 +48,9 @@
     <ClCompile Include="7-9MATRIX.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8-1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4-2.h">
@@ -75,6 +78,9 @@
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="7-9MATRIX.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
