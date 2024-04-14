@@ -22,3 +22,18 @@ public:
 	Clock8_2 operator++(int);//∫Û÷√
 };
 void test8_2();
+
+class Base1_8_4 {
+public:
+	virtual void display() const;
+	//void display() const;
+};
+class Base2_8_4 :public Base1_8_4 {
+public:
+	void display() const;
+};
+class Derived8_4 :public Base2_8_4 {
+public:
+	void display() const;
+};
+void test8_4();

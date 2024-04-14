@@ -138,6 +138,7 @@
     <ClCompile Include="7-9MATRIX.cpp" />
     <ClCompile Include="8-1.cpp" />
     <ClCompile Include="8-2.cpp" />
+    <ClCompile Include="8-4.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="6-16.cpp" />
   </ItemGroup>
