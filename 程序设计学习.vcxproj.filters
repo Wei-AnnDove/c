@@ -57,6 +57,9 @@
     <ClCompile Include="8-4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8-7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4-2.h">

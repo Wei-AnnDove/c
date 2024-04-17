@@ -37,3 +37,26 @@ public:
 	void display() const;
 };
 void test8_4();
+
+class Function8_7 {
+public:
+	virtual double operator () (double x) const = 0;
+	//virtual ~Function8_7();
+};
+class MyFunction8_7 :public Function8_7 {
+public:
+	virtual double operator() (double  x) const;
+};
+class Integration8_7 {
+public:
+	virtual double operator() (double a, double b, double eps) const = 0;
+	virtual ~Integration8_7(){}
+};
+class Trapz8_7 :public Integration8_7 {
+private:
+	const Function8_7& f;
+public:
+	Trapz8_7(const Function8_7 &f):f(f){}
+	virtual double operator() (double a, double b, double eps) const;
+};
+void test8_7();
