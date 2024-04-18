@@ -98,7 +98,8 @@ int main() {
 	//test8_1();
 	//test8_2();
 	//test8_4();
-	test8_7();
+	//test8_7();
+	test8_9();
 
 	return 0;
 }

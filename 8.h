@@ -60,3 +60,19 @@ public:
 	virtual double operator() (double a, double b, double eps) const;
 };
 void test8_7();
+
+class Base8_9 {
+public:
+	virtual void fun1();
+	virtual ~Base8_9(){}
+};
+class Derived1_8_9 :public Base8_9 {
+public:
+	virtual void fun1();
+	virtual void fun2();
+};
+class Derived2_8_9 :public Derived1_8_9 {
+	virtual void fun1();
+	virtual void fun2();
+};
+void test8_9();
