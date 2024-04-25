@@ -20,7 +20,7 @@ void Derived2_8_9::fun2() {
 }
 void fun(Base8_9* b) {
 	b->fun1();
-	Derived1_8_9* d = dynamic_cast<Derived1_8_9*>(b);
+	Derived1_8_9* d = dynamic_cast<Derived1_8_9*>(b);//base转换到derived为空指针
 	if (d != 0) d->fun2();
 }
 
